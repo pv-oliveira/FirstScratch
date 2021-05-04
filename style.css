@@ -40,6 +40,19 @@ body{
     font-size: 0.7em;
     margin: 0;
 }
+.button{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.3rem;
+    padding: 0px;
+}
+
+.button:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
 
 @media only screen and (max-width: 600px){
     .main-nav{
